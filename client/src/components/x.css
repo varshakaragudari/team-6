@@ -1,0 +1,28 @@
+.modal-dialog-fixed {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    max-height: calc(100% - 20px);
+    overflow-y: auto;
+    max-width: 90%;
+  }
+
+  /* Default height for screens larger than 960px */
+/* .my-element {
+  height: 8vh;
+} */
+
+/* Adjust height for screens between 625px and 960px */
+@media (max-width: 960px) {
+  .my-element {
+    height: 8vh; /* Adjust to your desired height */
+  }
+}
+
+/* Further adjustment for screens smaller than 625px */
+@media (max-width: 625px) {
+  .my-element {
+    height: 7vh; /* Adjust to your desired height */
+  }
+}

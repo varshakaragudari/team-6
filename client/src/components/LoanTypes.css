@@ -1,0 +1,24 @@
+.purple-button {
+    background-color: #a111a1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.purple-button:hover {
+    background-color: darkpurple;
+}
+
+.custom-accordion {
+    border: 2px solid rgb(236, 218, 236); /* Change the border color and width as needed */
+    
+  }
+
+  .container h6 {
+    color: #5A287D;
+    text-decoration: none !important;
+  }
+
+

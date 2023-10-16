@@ -1,0 +1,67 @@
+.body{
+    font-family: RNHouseSans-Regular, Verdana, Helvetica, San-serif;
+    color: #5A287D;
+    text-align: center;
+  }
+  
+  #headerLogo {
+      border-width:0px;
+  }
+  
+  .bg-color {
+      background-color: #5A287D;
+  }
+  
+  .navheight {
+      height: 35px;
+  }
+  
+  .txt-color {
+      color: #5A287D;
+      font-family: RNHouseSans-Regular, Verdana, Helvetica, San-serif;
+  }
+  
+  /* Default button styles */
+  .custom-button {
+      background-color: #ad1982;
+      border-color: #ad1982;
+      color: #ffffff;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    /* Hover styles */
+    /* .custom-button:hover {
+      background-color: #ffffff;
+      color: #ad1982;
+      border-color: #ffffff;
+    } */
+  
+    #col {
+      font-family: RNHouseSans-Regular, Verdana, Helvetica, San-serif;
+    }
+  
+    /* button.w-100 {
+      box-shadow: none;
+    } */
+    
+    .link {
+      text-decoration: none;
+      color: #ad1982;
+    }
+  
+    .link:hover {
+      text-decoration: underline;
+    }
+  
+    .logform {
+      background-color: #ffdbec;
+    }
+  
+    .logoutcome {
+      color: red;
+    }
+  
+  
+  
+  
+  

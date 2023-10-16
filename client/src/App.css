@@ -1,0 +1,17 @@
+.cont{
+  background-color: aquamarine;
+}
+.conti{
+  background-color:violet;
+}
+
+.bo{
+  background-color: yellowgreen;
+  border: 1px solid black;
+
+}
+
+a, NavLink{
+text-decoration: none !important;
+color: purple;
+}

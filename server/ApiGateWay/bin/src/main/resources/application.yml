@@ -1,0 +1,26 @@
+server:
+  port: 8999
+
+eureka:
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: Api-GateWay
+
+
+  cloud:
+    gateway:
+      routes:
+        - id: Contact-service
+          uri: lb://Contact-service
+          predicates:
+              - Path=/Contact/**
+
+        - id: user-service
+          uri: lb://User-service
+          predicates:
+              - Path=/user/**
+
+

@@ -1,0 +1,138 @@
+.form-content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loan-application-form-container {
+    font-family: "RNHouseSansRegular", serif;
+    margin: 30px 50px;
+  }
+  
+  .apply-for-loan {
+    font-weight: 700;
+    color: #5A287D;
+    margin-bottom: 50px;
+  }
+  
+  .application-form-container {
+    background-color: #E3D7F3; 
+    padding: 10px; 
+    flex:0.7;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+
+  .age-span{
+    margin-bottom: 20px;
+  }
+
+ .input-label {
+    color: #5A287D; 
+    display: block; 
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    font-weight: 700;
+  }
+  
+  .input-field{
+    background-color: white;
+    border: 1px solid #ccc; 
+    padding: 8px; 
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+
+  .currency-container {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .currency-symbol {
+    padding: 8px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .currency-input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .loan-period-container{
+    margin-bottom: 30px;
+  }
+  
+ .submission-button {
+    background-color: #5A287D; 
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    margin-top: 10px; 
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+ .submission-button:hover {
+    background-color: #493175; 
+  }
+  
+  .validation-message{
+    display:block;
+    color: red;
+    font-size: 15px;
+  }
+
+.submission-confirmation-toast {
+  background-color: #f8f8f8;
+}
+
+.submission-confirmation-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirm-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.information-summary-container {
+  background-color: #e3d7f3; 
+  padding: 20px;
+  flex: 0.3;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.summary-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.fact-container{
+  width: 95%;
+  background-color: #5A287D;
+  color: white;
+  padding:10px;
+  border-radius: 10px;
+}

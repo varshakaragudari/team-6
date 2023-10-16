@@ -1,0 +1,203 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.emi-data-container {
+    flex: 0 0 calc(40% - 4%);
+    margin: 4%;
+    font-family: "RNHouseSansRegular", serif;
+    background-color:  #e3d7f3;
+    padding: 20px;
+    color: #5A287D;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.emi-calculator-container {
+    flex: 0 0 calc(60% - 4%);
+    margin: 4%;
+    font-family: "RNHouseSansRegular", serif;
+}
+
+.Heading {
+    font-size: 40px;
+    line-height: 26px;
+    color: #5A287D;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.button-container {
+    display: inline-block;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+    outline: none;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.loan-amount-slider {
+    background-color: #5A287D;
+}
+
+
+.img-btn {
+    width: 24px;
+    height: 24px;
+    background-color: #5A287D;
+}
+
+
+.loan-borrow-label {
+    font-size: 30px;
+    color: #5A287D;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.input-loan-amt {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: inline-block;
+}
+
+.input-loan-amt input {
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.currency-sign {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.input-loan-amt-container {
+    display: flex;
+    align-items: center;
+}
+
+.inline-heading {
+    display: inline;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.apr-message {
+    display: inline-block;
+    background-color: #5A287D;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.alert h4 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.custom-alert {
+    background-color: #5A287D;
+    color: #fff;
+    border-color: #5A287D;
+}
+
+.loan-period-container {
+    margin-top: 15px;
+}
+
+.loan-period-select {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 20px;
+    color: #5A287D;
+    max-height: 50px;
+    overflow-y: auto;
+    border: 1px solid #5A287D;
+}
+
+.loan-period-select option {
+    padding: 5px;
+    background-color: #5A287D;
+    color: #5A287D;
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table-row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.table-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.table-column span {
+    margin-bottom: 4px;
+}
+
+.apply-button {
+    background-color: #5A287D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.emi-data-container-heading{
+    font-size: 30px;
+}
+
+.emi-data-heading{
+    font-size: 14px;
+    font-family: "RNHouseSansRegular", serif;
+}
+
+.emi-data-data{
+    color: black;
+    font-size: 30px;
+    font-family: "RNHouseSansRegular", serif;
+}

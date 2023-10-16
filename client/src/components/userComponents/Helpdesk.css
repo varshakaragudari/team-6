@@ -1,0 +1,17 @@
+.account{
+    background-color: rgb(238, 212, 238);
+    width: 100%;
+}
+
+.card{
+    border-radius: 1rem;
+}
+.img-fluid{
+    border-radius: 1rem 0 0 1rem;
+}
+.fas{
+    color: #ff6219;
+}
+.custom-input-container {
+    margin-right: 50px; /* Adjust the margin value as needed */
+  }

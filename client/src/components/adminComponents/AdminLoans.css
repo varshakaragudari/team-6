@@ -1,0 +1,77 @@
+.purple-div {
+    background-color: #5A287D;
+    border-radius: 30px;
+    padding: 7px;
+    text-align: center;
+  }
+  
+  .div {
+    display: flex;
+    background-color: #d0b9e1;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 30px;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    width: 1150px; 
+  }
+  
+  .purple {
+    color: purple;
+    font-weight: bold;
+  }
+  
+  h6 {
+    margin: 10px 30px; /* Adjust margin values for spacing */
+  }
+
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container fill the viewport vertically */
+}
+
+/* Style for the loandetails div */
+.loandetails {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.custom-table {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center-align the table */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  }
+  
+  .custom-table thead th {
+    background-color: #d0b9e1; /* Light gray background for table header */
+    font-weight: bold;
+  }
+  
+  .purple-text {
+    color: purple !important; /* Set the text color to purple */
+    font-weight: bold;
+  }
+
+  .purpletext {
+    color: rgb(22, 20, 22) !important; /* Set the text color to purple */
+    font-weight: bold;
+  }
+
+  .purple-button-sb {
+    background-color: #5A287D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.purple-button:hover {
+    background-color: darkpurple;
+}
